@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 import { createPortal } from "react-dom"
-import { useModalContext } from "./Context/ModalContext"
+import { useModalContext } from "./Context/UseModalContext" 
 import "./Modal.css"
 
 interface Props {
